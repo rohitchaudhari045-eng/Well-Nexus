@@ -64,16 +64,5 @@ WellNexus provides a centralized AI-powered platform that helps engineers access
 10. Analytics
 11. Admin Panel
 
----
-
-## Team
-
-- Rohit Chaudhari
-- Team Member 2
-- Team Member 3
-- Team Member 4
-
----
-
-## Smart India Hackathon 2025
+## Smart India Hackathon 2026
 Oil India Limited Problem Statement
