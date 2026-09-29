@@ -6,13 +6,13 @@ import { getAnalytics, isSupported } from "firebase/analytics";
 
 // User's Live Firebase Configuration
 const firebaseConfig = {
-  apiKey: "AIzaSyBMc2xfDnTW2ehRy3JZ-jPA1aBMjLq6H3U",
-  authDomain: "food-pluse.firebaseapp.com",
-  projectId: "food-pluse",
-  storageBucket: "food-pluse.firebasestorage.app",
-  messagingSenderId: "197905263702",
-  appId: "1:197905263702:web:dfad92765dce6e32ef9ff7",
-  measurementId: "G-34GQHV5MDV"
+  apiKey: import.meta.env.VITE_FIREBASE_API_KEY || "AIzaSyBMc2xfDnTW2ehRy3JZ-jPA1aBMjLq6H3U",
+  authDomain: import.meta.env.VITE_FIREBASE_AUTH_DOMAIN || "food-pluse.firebaseapp.com",
+  projectId: import.meta.env.VITE_FIREBASE_PROJECT_ID || "food-pluse",
+  storageBucket: import.meta.env.VITE_FIREBASE_STORAGE_BUCKET || "food-pluse.firebasestorage.app",
+  messagingSenderId: import.meta.env.VITE_FIREBASE_MESSAGING_SENDER_ID || "197905263702",
+  appId: import.meta.env.VITE_FIREBASE_APP_ID || "1:197905263702:web:dfad92765dce6e32ef9ff7",
+  measurementId: import.meta.env.VITE_FIREBASE_MEASUREMENT_ID || "G-34GQHV5MDV"
 };
 
 // Initialize Firebase App
